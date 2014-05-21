@@ -60,10 +60,10 @@
   <external-component-plugins>
     <target-component>org.exoplatform.commons.api.search.SearchService</target-component>
     <component-plugin>
-      <name>ElasticSearchConnector</name>
+      <name>CmisSearchConnector</name>
       <set-method>addConnector</set-method>
       <type>org.exoplatform.search.cmis.CmisSearchConnector</type>
-      <description>CMIS Connector</description>
+      <description>CMIS Search Connector</description>
       <init-params>
         <properties-param>
           <name>constructor.params</name>
